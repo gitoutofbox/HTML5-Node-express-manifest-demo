@@ -1,2 +1,4 @@
 .nav-link{padding:0 .4rem; margin:.5rem 1rem;}
 .nav-link.active, .nav-link:hover{color:green; border-bottom:3px solid green;}
+
+img{max-width:100%;}
