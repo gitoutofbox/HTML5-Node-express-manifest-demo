@@ -12,9 +12,9 @@ const server = app.listen(8082, function () {
 
 //chrome://appcache-internals/
 app.get('/appcache', (req, res) =>{
-    // res.setHeader('content-type', 'text/cache-manifest');
-    // const content = fs.readFileSync('manifest.appcache', 'utf8');
-    // //console.log(content)
-    // res.end(content);
+    res.setHeader('content-type', 'text/cache-manifest');
+    const content = fs.readFileSync('manifest.appcache', 'utf8');
+    //console.log(content)
+    res.end(content);
     res.end('');
 })

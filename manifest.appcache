@@ -1,11 +1,9 @@
 CACHE MANIFEST
-# 2019-12-17:v8
+# v2
 
 # Explicitly cached 'master entries'.
 CACHE:
 index.html
-index.html
-offline.html
 css/bootstrap.min.css
 css/style.css
 
